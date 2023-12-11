@@ -17,6 +17,7 @@ public class Main {
         list.display();
         list.delete(2);
         list.display();
+        list.find (18);
 
 
     }

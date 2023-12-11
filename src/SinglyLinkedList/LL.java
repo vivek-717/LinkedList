@@ -84,12 +84,15 @@ public class LL {
         return value;
     }
 
-    public int find(int index){
+    public Node find(int value){
         Node temp = head;
-        for (int i=1; i<=index; i++){
+        while (temp != null){
+            if (temp.val == value){
+                return temp;
+            }
             temp = temp.next;
         }
-        return temp.val;
+        return null;
     }
     public Node get(int index){
         Node temp = head;
