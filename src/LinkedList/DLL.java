@@ -1,4 +1,4 @@
-package SinglyLinkedList;
+package LinkedList;
 
 public class DLL {
     private Node head;
